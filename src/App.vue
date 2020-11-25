@@ -1,24 +1,26 @@
 <template>
-  <project-view></project-view>
+    <nav-bar v-if="['Home', 'Project'].indexOf($route.name) > -1"/>
+    <div :class="{'main': $route.name === 'Home' || $route.name === 'Project' }">
+        <router-view></router-view>
+    </div>
+    <footer-comp v-if="['Home', 'Project'].indexOf($route.name) > -1"/>
 </template>
 
 <script>
-  import ProjectView from './components/Portfolio.vue'
-  export default {
-    name: 'App',
-    components: {
-      ProjectView
+    import NavBar from './components/nav/NavBar'
+    import FooterComp from './components/footer/Footer'
+
+    export default {
+        name: 'App',
+        components: {
+            NavBar,
+            FooterComp
+        }
     }
-  }
 </script>
 
 <style>
-  #app {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-    margin-top: 60px;
-  }
+    .main {
+        padding: 40px 100px;
+    }
 </style>

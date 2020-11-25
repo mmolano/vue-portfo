@@ -1,3 +1,12 @@
-h1{
-    color: blue;
+html {
+    background-color: #f7f7f7;
+}
+
+h1, h2, h3, h4, h5 {
+    width: fit-content;
+    width: -moz-fit-content;
+    font-weight: 700;
+    line-height: 1.4;
+    color: #333;
+    font-family: "Montserrat", sans-serif;
 }

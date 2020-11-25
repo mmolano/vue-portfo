@@ -2,22 +2,131 @@
   "name": "Projects",
   "projects": [
     {
+      "id": 1,
+      "name": "Is twitter makable with RoR ?",
+      "title": "Ruby on rails",
       "label": "web",
       "date": "20/07/20",
-      "img": "datepicker.jpg",
-      "link": "https://github.com/mmolano/fidensioPicker"
+      "img": "ruby.jpg",
+      "link": "https://github.com/mmolano/fidensioPicker",
+      "description": "This project was made using Ruby On Rails and is mainly focused on the back-end. This app uses the followings features:",
+      "features": [
+        {
+          "name": "Follow and unfollow a user"
+        },
+        {
+          "name": "User Crud"
+        },
+        {
+          "name": "Post Crud"
+        }
+      ],
+      "skills": [
+        {
+          "lang": "ruby",
+          "percent": 67.9,
+          "color": "#ff89b0"
+        },
+        {
+          "lang": "html",
+          "percent": 22.7,
+          "color": "#78b9ff"
+        },
+        {
+          "lang": "css",
+          "percent": 5.8,
+          "color": "#ffaf68"
+        },
+        {
+          "lang": "others",
+          "percent": 3.6,
+          "color": "#af724c"
+        }
+      ]
     },
     {
+      "id": 2,
+      "name": "Space One",
+      "title": "Space One",
       "label": "web",
       "date": "20/07/20",
-      "img": "datepicker.jpg",
-      "link": "https://github.com/mmolano/fidensioPicker"
+      "img": "space/space_one.jpg",
+      "link": "https://github.com/mmolano/fidensioPicker",
+      "description": "This project was made using PHP (without any framework) and is still in progress. This app uses the followings features:",
+      "features": [
+        {
+          "name": "Admin dashboard (CRUD)"
+        },
+        {
+          "name": "Friend system"
+        },
+        {
+          "name": "Movies recommended by friends | video with tags"
+        },
+        {
+        "name": "Fav system | rate system"
+        }
+      ],
+      "skills": [
+        {
+          "lang": "php",
+          "percent": 75.5,
+          "color": "#ff89b0"
+        },
+        {
+          "lang": "html",
+          "percent": 15.5,
+          "color": "#78b9ff"
+        },
+        {
+          "lang": "scss",
+          "percent": 5,
+          "color": "#ffaf68"
+        },
+        {
+          "lang": "others",
+          "percent": 4,
+          "color": "#af724c"
+        }
+      ]
     },
     {
+      "id": 3,
+      "name": "Guardians of the Galaxie",
+      "title": "Guardians of the galaxie",
       "label": "drawing",
       "date": "20/07/20",
-      "img": "datepicker.jpg",
-      "link": "https://github.com/mmolano/fidensioPicker"
+      "img": "guard/guard.png",
+      "link": "https://github.com/mmolano/fidensioPicker",
+      "description": "This project was made using PHP and was the first project i have made. This app uses the followings features:",
+      "features": [
+        {
+          "name": "Admin Crud"
+        },
+        {
+          "name": "Permission system"
+        },
+        {
+          "name": "Post Crud | User Crud"
+        }
+      ],
+      "skills": [
+        {
+          "lang": "php",
+          "percent": 91,
+          "color": "#ff89b0"
+        },
+        {
+          "lang": "css",
+          "percent": 5.8,
+          "color": "#ffaf68"
+        },
+        {
+          "lang": "others",
+          "percent": 3.8,
+          "color": "#af724c"
+        }
+      ]
     }
   ]
 }
