@@ -112,7 +112,7 @@
         flex-direction: column;
         justify-content: center;
         min-height: 440px;
-        width: 350px;
+        max-width: 350px;
         height: 100%;
         background-color: #ccc;
         box-shadow: 0 2px 30px rgba(0, 0, 0, 0.1);

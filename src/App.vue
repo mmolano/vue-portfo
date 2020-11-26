@@ -23,4 +23,10 @@
     .main {
         padding: 40px 100px;
     }
+
+    @media only screen and (max-width: 750px) {
+        .main {
+            padding: 40px 30px;
+        }
+    }
 </style>
